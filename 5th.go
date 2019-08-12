@@ -28,7 +28,7 @@ func parse(str string) []string {
 	return result
 }
 
-func k5nd(str1, str2 string) int {
+func k5th(str1, str2 string) int {
 
 	fmt.Printf("input:%s , %s\n", str1, str2)
 	arr1 := parse(str1)

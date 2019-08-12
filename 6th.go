@@ -87,7 +87,7 @@ func puzzle(m, n int, nb [][]byte) int {
 	return result
 }
 
-func k6nd(m, n int, board []string) int {
+func k6th(m, n int, board []string) int {
 	fmt.Printf("row=%d col=%d board=%+v\n", m, n, board)
 
 	// for loop.

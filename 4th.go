@@ -28,7 +28,7 @@ func parsetime2(t int) string {
 	return fmt.Sprintf("%02d:%02d", h, m)
 }
 
-func k4nd(n, t, m int, timetable []string) string {
+func k4th(n, t, m int, timetable []string) string {
 	fmt.Printf("n:%d t:%d m:%d timetable:%+v\n", n, t, m, timetable)
 	sort.Slice(timetable, func(i, j int) bool {
 		return parsetime(timetable[i]) < parsetime(timetable[j])

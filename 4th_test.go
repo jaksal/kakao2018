@@ -7,8 +7,8 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func Test4nd(t *testing.T) {
-	t.Log("start kakao 4nd")
+func Test4th(t *testing.T) {
+	t.Log("start kakao 4th")
 
 	tc := []struct {
 		n, t, m   int
@@ -25,7 +25,7 @@ func Test4nd(t *testing.T) {
 
 	for i, tt := range tc {
 		t.Run(fmt.Sprintf("%d", i), func(t *testing.T) {
-			result := k4nd(tt.n, tt.t, tt.m, tt.timetalbe)
+			result := k4th(tt.n, tt.t, tt.m, tt.timetalbe)
 			assert.Equal(t, tt.out, result)
 		})
 	}

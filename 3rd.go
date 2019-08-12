@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-func k3nd(cacheSize int, citis []string) int {
+func k3rd(cacheSize int, citis []string) int {
 	var result int
 
 	cache := list.New()

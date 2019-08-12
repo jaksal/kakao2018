@@ -7,8 +7,8 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func Test5nd(t *testing.T) {
-	t.Log("start kakao 5nd")
+func Test5th(t *testing.T) {
+	t.Log("start kakao 5th")
 
 	tc := []struct {
 		str1, str2 string
@@ -22,7 +22,7 @@ func Test5nd(t *testing.T) {
 
 	for i, tt := range tc {
 		t.Run(fmt.Sprintf("%d", i), func(t *testing.T) {
-			result := k5nd(tt.str1, tt.str2)
+			result := k5th(tt.str1, tt.str2)
 			assert.Equal(t, tt.out, result)
 		})
 	}
